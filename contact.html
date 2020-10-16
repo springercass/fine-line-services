@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact | Fine Line Services</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Basic&family=Montserrat:wght@300;400;500;600;800&family=Righteous&family=Ruda:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="nav-logo">
+          <a href="./index.html"
+            ><img src="./img/logo.png" alt="Fine Line Services Logo"
+          /></a>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./services.html">Services</a>
+            <a href="./contact.html">Contact</a>
+          </ul>
+        </div>
+
+        <button class="ham"></button>
+        <nav class="navbar">
+          <ul>
+            <li><a class="menuLink" href="./index.html">Home</a></li>
+            <li><a class="menuLink" href="./about.html">About</a></li>
+            <li><a class="menuLink" href="./services.html">Services</a></li>
+            <li><a class="menuLink" href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-contact">
+          <a href="tel:8666592830"><h3>(866) 659-2830</h3></a>
+          <a href="mailto: info@finelineservicesinc.com"
+            ><h3>info@finelineservicesinc.com</h3></a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <div class="contact-section-one">
+      <div class="contact-box">
+        <h1>Contact Us for a Free Quote</h1>
+        <h3>Fine Line Services, Inc.</h3>
+        <p>176 S. Adams St. Oswego, IL 60543</p>
+        <br />
+        <a href="tel:8666592830"><p>P (866) 659-2830</p></a>
+        <p>F (630) 599-8613</p>
+        <a href="mailto: info@finelineservicesinc.com"
+            ><p>info@finelineservicesinc.com</p></a>
+
+        <form id="contact">
+          <label for="name">Name*</label>
+          <input type="text" id="name" />
+          <label for="email">Email*</label>
+          <input type="email" id="email" />
+          <label for="phone">Phone*</label>
+          <input type="phone" id="phone" />
+          <label for="subject">Subject*</label>
+          <input type="text" id="subject" />
+          <label for="message">Message*</label>
+          <input type="text" id="message" />
+          <input type="submit" id="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </div>
+
+    <footer class="small-footer">
+      <div class="small-left">
+        <h1>FINE LINE SERVICES, INC</h1>
+        <p>Subscribe for news and more!</p>
+        <form>
+          <input placeholder="Email Address" />
+          <input type="submit" id="subscribe" value="Subscribe" />
+        </form>
+      </div>
+      <img src="./img/smallFooterLogo.png" alt="" class="small-footer-img" />
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
