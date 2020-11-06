@@ -226,10 +226,10 @@ nav {
 .navbar {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 45%;
   background: rgba(0, 0, 0, 0.9);
-  width: 90vw;
-  height: 50vh;
+  width: 50vw;
+  height: 40vh;
   overflow: hidden;
   color: white;
   font-family: "Ruda", sans-serif;
@@ -259,7 +259,7 @@ nav {
   padding-bottom: 10px;
   text-decoration: none;
   font-family: "Ruda", sans-serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .navbar ul li a:hover,
@@ -346,23 +346,23 @@ nav {
   }
 
   .section-one h1 {
-    font-size: 4.5rem;
+    font-size: 8rem;
     margin-top: -5%;
   }
 
   .section-one p {
     width: 80%;
-    font-size: 1rem;
-    line-height: 1.2rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
     margin-top: 3%;
   }
 
   .arrow {
-    margin: -8% auto 2% auto;
+    margin: -8% auto 5% auto;
   }
 
   .arrow img {
-    width: 40px;
+    width: 100px;
   }
 }
 
@@ -432,16 +432,16 @@ nav {
 
 @media screen and (max-width: 1080px) {
   .section-two-banner {
-    height: 40px;
+    height: 50px;
   }
 
   .section-two-banner h1 {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 
   .section-two-grid {
-    height: 30vh;
+    height: 20vh;
     background-image: url("./img/bridge-banner.jpg");
     background-size: cover;
     display: flex;
@@ -464,13 +464,13 @@ nav {
   }
 
   .grid-width h2 {
-    font-size: 0.9em;
+    font-size: 1.8rem;
     font-family: "Ruda", sans-serif;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
   }
 
   .grid-width img {
-    width: 60px;
+    width: 70px;
   }
 
   .section-two-end {
@@ -484,10 +484,10 @@ nav {
 
   .section-two-end h3 {
     width: 80%;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
     font-family: "Ruda", sans-serif;
     color: black;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
   }
 }
 
@@ -550,7 +550,7 @@ nav {
 @media screen and (max-width: 1080px) {
   .section-three {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background-image: url("./img/tools-banner.jpg");
     background-size: cover;
     display: flex;
@@ -560,7 +560,7 @@ nav {
   }
 
   .section-three img {
-    width: 400px;
+    width: 90%;
   }
 
   .map-box {
@@ -575,10 +575,10 @@ nav {
   }
 
   .map-box p {
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     font-family: "Ruda", sans-serif;
     width: 90%;
-    line-height: 1.2rem;
+    line-height: 1.6rem;
     margin: 3% 0;
   }
 
@@ -590,7 +590,7 @@ nav {
 
   .services-button {
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-color: #ffc01d;
     display: flex;
     align-items: center;
@@ -603,7 +603,7 @@ nav {
   }
 
   .services-button h3 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: black;
     font-family: "Righteous", cursive;
   }
@@ -729,7 +729,7 @@ nav {
 @media screen and (max-width: 1080px) {
   .about-section-one {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -756,14 +756,14 @@ nav {
 
   .white-box p {
     width: 80%;
-    font-size: 0.8rem;
+    font-size: 1.6rem;
     font-family: "Ruda", sans-serif;
-    line-height: 1.2rem;
+    line-height: 1.8rem;
   }
 
   .about-section-two {
     width: 100%;
-    height: 45vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -771,7 +771,7 @@ nav {
   }
 
   .about-section-two h1 {
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-family: "Righteous", cursive;
     margin: 10% 0 0 0;
   }
@@ -785,8 +785,8 @@ nav {
   }
 
   .client-row img {
-    margin: 1%;
-    width: 90px;
+    margin:5% 1% ;
+    width: 120px;
   }
 }
 
@@ -875,7 +875,7 @@ nav {
   .services {
     background-image: url("./img/brick.jpg");
     background-size: cover;
-    height: 110vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -883,9 +883,9 @@ nav {
 
   .services h1 {
     color: black;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-family: "Righteous", cursive;
-    margin: 5% auto 3% auto;
+    margin: 8% auto 3% auto;
     text-align: center;
   }
 
@@ -893,7 +893,7 @@ nav {
     display: flex;
     flex-direction: column-reverse;
     width: 90%;
-    margin: auto;
+    margin: 5% auto;
     align-items: center;
     justify-content: space-between;
   }
@@ -935,12 +935,12 @@ nav {
   }
 
   .services-column-right img {
-    width: 45%;
+    width: 50%;
     height: auto;
   }
 
   .right-yellow {
-    width: 45%;
+    width: 50%;
     height: auto !important;
     background-color: rgb(255, 192, 29, 0.6);
     text-align: center;
@@ -951,10 +951,10 @@ nav {
   }
 
   .right-yellow p {
-    font-size: 0.8rem;
+    font-size: 1.8rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    line-height: 1rem;
+    line-height: 2rem;
   }
 
   .thin {
@@ -1067,7 +1067,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: 10% auto;
+    margin: 5% auto;
     background-color: rgb(255, 192, 29, 0.6);
     height: auto;
     padding: 5%;
@@ -1084,14 +1084,14 @@ nav {
   }
 
   .contact-box h1 {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-family: "Righteous", cursive;
     text-align: center;
   }
 
   .contact-box h3 {
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     margin: 10% 0 0.5% 0;
@@ -1099,7 +1099,7 @@ nav {
 
   .contact-box p {
     color: white;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     line-height: 1.2rem;
@@ -1195,7 +1195,43 @@ footer {
   outline: none;
 }
 
-#subscribe {
+#index-subscribe {
+  width: 30% !important;
+  background-color: #ffc01d !important;
+  border: none !important;
+  height: 25px !important;
+  margin: 4% 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+#about-subscribe {
+  width: 30% !important;
+  background-color: #ffc01d !important;
+  border: none !important;
+  height: 25px !important;
+  margin: 4% 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+#services-subscribe {
+  width: 30% !important;
+  background-color: #ffc01d !important;
+  border: none !important;
+  height: 25px !important;
+  margin: 4% 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+#contact-subscribe {
   width: 30% !important;
   background-color: #ffc01d !important;
   border: none !important;
@@ -1314,7 +1350,43 @@ footer {
     outline: none;
   }
 
-  #subscribe {
+  #index-subscribe {
+    width: 30% !important;
+    background-color: #ffc01d !important;
+    border: none !important;
+    height: 25px !important;
+    margin: 4% 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+
+  #about-subscribe {
+    width: 30% !important;
+    background-color: #ffc01d !important;
+    border: none !important;
+    height: 25px !important;
+    margin: 4% 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+
+  #services-subscribe {
+    width: 30% !important;
+    background-color: #ffc01d !important;
+    border: none !important;
+    height: 25px !important;
+    margin: 4% 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+
+  #contact-subscribe {
     width: 30% !important;
     background-color: #ffc01d !important;
     border: none !important;
@@ -1402,7 +1474,43 @@ footer {
   outline: none;
 }
 
-#subscribe {
+#index-subscribe {
+  width: 25% !important;
+  background-color: #ffc01d !important;
+  border: none !important;
+  height: 25px !important;
+  margin: 4% 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+#about-subscribe {
+  width: 25% !important;
+  background-color: #ffc01d !important;
+  border: none !important;
+  height: 25px !important;
+  margin: 4% 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+#services-subscribe {
+  width: 25% !important;
+  background-color: #ffc01d !important;
+  border: none !important;
+  height: 25px !important;
+  margin: 4% 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+#contact-subscribe {
   width: 25% !important;
   background-color: #ffc01d !important;
   border: none !important;
@@ -1470,7 +1578,43 @@ footer {
     outline: none;
   }
 
-  #subscribe {
+  #index-subscribe {
+    width: 30% !important;
+    background-color: #ffc01d !important;
+    border: none !important;
+    height: 25px !important;
+    margin: 4% 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+
+  #about-subscribe {
+    width: 30% !important;
+    background-color: #ffc01d !important;
+    border: none !important;
+    height: 25px !important;
+    margin: 4% 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+
+  #services-subscribe {
+    width: 30% !important;
+    background-color: #ffc01d !important;
+    border: none !important;
+    height: 25px !important;
+    margin: 4% 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.7rem;
+  }
+
+  #contact-subscribe {
     width: 30% !important;
     background-color: #ffc01d !important;
     border: none !important;
