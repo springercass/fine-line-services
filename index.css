@@ -267,7 +267,7 @@ nav {
   border-bottom: 2px solid white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   nav {
     height: 60px;
     background-color: #f2f2f2;
@@ -287,7 +287,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1080px) {
   .ham {
     display: none;
   }
@@ -340,7 +340,7 @@ nav {
   margin: auto;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .section-one {
     height: 40vh;
   }
@@ -430,7 +430,7 @@ nav {
   margin-bottom: 8%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .section-two-banner {
     height: 40px;
   }
@@ -547,7 +547,7 @@ nav {
   font-family: "Righteous", cursive;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .section-three {
     width: 100%;
     height: 60vh;
@@ -633,7 +633,7 @@ nav {
   margin: 0 2%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .section-four {
     height: auto;
   }
@@ -726,7 +726,7 @@ nav {
   margin: 3% 1%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .about-section-one {
     width: 100%;
     height: 70vh;
@@ -871,7 +871,7 @@ nav {
   font-weight: 400 !important;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .services {
     background-image: url("./img/brick.jpg");
     background-size: cover;
@@ -1053,7 +1053,7 @@ nav {
   font-family: "Montserrat", sans-serif;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .contact-section-one {
     background-image: url("./img/brick.jpg");
     background-size: cover;
@@ -1225,7 +1225,7 @@ footer {
   padding: 0 1%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   footer {
     height: auto;
     background-color: #c4c4c4;
@@ -1414,7 +1414,7 @@ footer {
   font-size: 0.7rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
   .small-footer {
     height: 14vh !important;
     flex-direction: row !important;
