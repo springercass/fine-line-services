@@ -1,7 +1,7 @@
 var form_id_js = "about-newsletter";
 
 var data_js = {
-	"access_token": "uc226oogf39q90uf4cljx10i"
+	"access_token": "a77ils392mgfijpkd2n83qn8"
 };
 
 function js_onSuccess() {
